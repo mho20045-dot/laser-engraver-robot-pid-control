@@ -15,7 +15,7 @@ The project includes:
 * Degree of Freedom analysis
 * PID control system design
 * Motion comparison before and after control
-* Before-control and after-control motion videos
+* Before-control and after-control motion videos in MP4 format
 * Letter trajectory tracking for O, M, and L
 * Angle-time response analysis for robot joints
 
@@ -52,6 +52,7 @@ My role in this project included:
 * Applying automatic control concepts
 * Designing and using a PID control system
 * Comparing robot motion before and after control
+* Adding MP4 motion videos to demonstrate the improvement
 * Analyzing the engraving trajectories of letters O, M, and L
 * Evaluating angle-time response graphs
 * Preparing the final automatic control presentation
@@ -69,6 +70,7 @@ The following tools and engineering concepts were used in this project:
 * **Degree of Freedom Analysis** – evaluating system mobility
 * **Trajectory Analysis** – comparing desired and actual motion paths
 * **Angle-Time Graphs** – analyzing joint behavior over time
+* **MP4 Video Demonstration** – showing before-control and after-control motion
 * **PowerPoint** – preparing the final engineering presentation
 
 ---
@@ -104,11 +106,7 @@ The MATLAB drawing helped show:
 * End-effector movement
 * Motion path of the laser tool
 
-Suggested image:
-
-```markdown
 ![MATLAB Robot Drawing](images/matlab-robot-drawing.png)
-```
 
 ---
 
@@ -127,11 +125,7 @@ The robot system included:
 
 This step was important because understanding the mechanical structure helps in analyzing movement, calculating degree of freedom, and designing the control system.
 
-Suggested image:
-
-```markdown
 ![Robot Arm Elements](images/robot-arm-elements.png)
-```
 
 ---
 
@@ -206,11 +200,7 @@ The PID controller was used to improve:
 * Dynamic response
 * Smoothness of movement
 
-Suggested image:
-
-```markdown
 ![PID Control System](images/pid-control-system.png)
-```
 
 ---
 
@@ -228,20 +218,19 @@ The robot path was tested using letter engraving examples:
 
 #### Before Control Motion Video
 
-This video demonstrates the robot motion before applying the PID controller.
-The uncontrolled system shows less accurate movement and weaker trajectory tracking, which affects the engraving quality.
+This MP4 video demonstrates the robot motion before applying the PID controller.
 
-```markdown
+Before control, the robot movement was less stable and the engraving trajectory did not accurately follow the desired path.
+
 https://github.com/user-attachments/assets/YOUR-BEFORE-CONTROL-VIDEO-LINK
-```
 
 #### Before Control Letter Results
 
-```markdown
 ![Before Control Letter O](images/before-control-letter-o.png)
+
 ![Before Control Letter M](images/before-control-letter-m.png)
+
 ![Before Control Letter L](images/before-control-letter-l.png)
-```
 
 ---
 
@@ -262,20 +251,19 @@ The comparison after control showed improvement in:
 
 #### After Control Motion Video
 
-This video demonstrates the robot motion after applying the PID controller.
-After control, the robot motion becomes more stable, smoother, and closer to the desired engraving trajectory.
+This MP4 video demonstrates the robot motion after applying the PID controller.
 
-```markdown
+After control, the robot motion became more stable, smoother, and closer to the desired engraving trajectory.
+
 https://github.com/user-attachments/assets/YOUR-AFTER-CONTROL-VIDEO-LINK
-```
 
 #### After Control Letter Results
 
-```markdown
 ![After Control Letter O](images/after-control-letter-o.png)
+
 ![After Control Letter M](images/after-control-letter-m.png)
+
 ![After Control Letter L](images/after-control-letter-l.png)
-```
 
 ---
 
@@ -292,14 +280,13 @@ These graphs helped evaluate how the robot joints changed their angular position
 
 The angle-time response was important because it helped show the effect of control on the movement of the robot joints.
 
-Suggested images:
-
-```markdown
 ![Angle-Time Joint 34 Before](images/angle-time-joint-34-before.png)
+
 ![Angle-Time Joint 45 Before](images/angle-time-joint-45-before.png)
+
 ![Angle-Time Joint 34 After](images/angle-time-joint-34-after.png)
+
 ![Angle-Time Joint 45 After](images/angle-time-joint-45-after.png)
-```
 
 ---
 
@@ -371,7 +358,7 @@ After control, the robot motion became more accurate and the letter shapes becam
 
 ### Video-Based Motion Comparison
 
-Motion videos were added to show the robot behavior before and after applying control.
+Motion videos were added in MP4 format to show the robot behavior before and after applying control.
 
 The before-control video shows the uncontrolled robot motion, while the after-control video demonstrates the improvement achieved using the PID controller.
 
@@ -404,8 +391,8 @@ The key results of the project were:
 * The robot was found to have 6 degrees of freedom.
 * A PID control system was applied.
 * The robot motion was compared before and after control.
-* A before-control motion video was added to show the uncontrolled robot behavior.
-* An after-control motion video was added to demonstrate the improvement after PID control.
+* A before-control MP4 motion video was added to show the uncontrolled robot behavior.
+* An after-control MP4 motion video was added to demonstrate the improvement after PID control.
 * Letter engraving paths for O, M, and L were evaluated.
 * Angle-time graphs were generated for selected joint pairs.
 * The controlled system showed improved trajectory tracking compared to the uncontrolled system.
@@ -419,9 +406,7 @@ The key results of the project were:
 
 This image shows the MATLAB representation of the robot arm used in the laser engraving system.
 
-```markdown
 ![MATLAB Robot Drawing](images/matlab-robot-drawing.png)
-```
 
 ---
 
@@ -429,9 +414,7 @@ This image shows the MATLAB representation of the robot arm used in the laser en
 
 This image shows the main elements of the robot arm, including the links, joints, and motion structure.
 
-```markdown
 ![Robot Arm Elements](images/robot-arm-elements.png)
-```
 
 ---
 
@@ -439,60 +422,51 @@ This image shows the main elements of the robot arm, including the links, joints
 
 This image shows the PID control system used to improve robot motion accuracy.
 
-```markdown
 ![PID Control System](images/pid-control-system.png)
-```
 
 ---
 
 ### Before Control Motion Video
 
-This video shows the motion of the laser engraver robot before applying the PID controller.
+This MP4 video shows the motion of the laser engraver robot before applying the PID controller.
 
 Before control, the robot motion was less stable and the engraving trajectory was not accurately following the desired path.
 
-```markdown
 https://github.com/user-attachments/assets/YOUR-BEFORE-CONTROL-VIDEO-LINK
-```
 
 ---
 
 ### After Control Motion Video
 
-This video shows the motion of the laser engraver robot after applying the PID controller.
+This MP4 video shows the motion of the laser engraver robot after applying the PID controller.
 
 After control, the robot motion became more stable and the engraving trajectory became closer to the desired path.
 
-```markdown
 https://github.com/user-attachments/assets/YOUR-AFTER-CONTROL-VIDEO-LINK
-```
 
 ---
 
-### Letter Trajectory Results
+### Letter O – Before and After Control
 
-The following images show the letter trajectory results before and after applying the PID controller.
-
-#### Letter O
-
-```markdown
 ![Before Control Letter O](images/before-control-letter-o.png)
+
 ![After Control Letter O](images/after-control-letter-o.png)
-```
 
-#### Letter M
+---
 
-```markdown
+### Letter M – Before and After Control
+
 ![Before Control Letter M](images/before-control-letter-m.png)
+
 ![After Control Letter M](images/after-control-letter-m.png)
-```
 
-#### Letter L
+---
 
-```markdown
+### Letter L – Before and After Control
+
 ![Before Control Letter L](images/before-control-letter-l.png)
+
 ![After Control Letter L](images/after-control-letter-l.png)
-```
 
 The before-and-after comparison shows the effect of the PID controller on the robot motion. After control, the engraving paths became more accurate and closer to the desired shapes.
 
@@ -502,12 +476,13 @@ The before-and-after comparison shows the effect of the PID controller on the ro
 
 These graphs show the angular response of selected joint pairs over time.
 
-```markdown
 ![Angle-Time Joint 34 Before](images/angle-time-joint-34-before.png)
+
 ![Angle-Time Joint 45 Before](images/angle-time-joint-45-before.png)
+
 ![Angle-Time Joint 34 After](images/angle-time-joint-34-after.png)
+
 ![Angle-Time Joint 45 After](images/angle-time-joint-45-after.png)
-```
 
 The angle-time graphs helped evaluate the dynamic behavior of the robot joints and compare the system response before and after control.
 
@@ -526,7 +501,7 @@ This project demonstrates the following engineering skills:
 * Trajectory tracking analysis
 * Angle-time graph interpretation
 * System response evaluation
-* Motion comparison using video
+* Motion comparison using MP4 videos
 * Engineering problem solving
 * Mechanical system analysis
 * Technical presentation preparation
@@ -573,12 +548,12 @@ matlab/
 
 This project successfully demonstrates the modeling and control of a laser engraver robot using MATLAB and PID control principles.
 
-The project included robot arm modeling, element identification, Degree of Freedom analysis, PID controller implementation, trajectory comparison, video-based motion comparison, and angle-time response evaluation.
+The project included robot arm modeling, element identification, Degree of Freedom analysis, PID controller implementation, trajectory comparison, MP4 video-based motion comparison, and angle-time response evaluation.
 
 The Degree of Freedom analysis showed that the mechanism has 6 degrees of freedom, which makes control important for accurate and stable motion.
 
 By applying PID control, the robot showed improved trajectory tracking and better engraving path accuracy for letters such as O, M, and L.
 
-The before-control and after-control videos provide a clearer comparison of the system behavior and demonstrate the improvement achieved through control implementation.
+The before-control and after-control MP4 videos provide a clearer comparison of the system behavior and demonstrate the improvement achieved through control implementation.
 
 This project helped develop practical understanding in robotics, MATLAB simulation, automatic control, mechanism analysis, DOF analysis, trajectory tracking, and engineering system evaluation.
