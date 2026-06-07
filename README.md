@@ -222,7 +222,12 @@ This MP4 video demonstrates the robot motion before applying the PID controller.
 
 Before control, the robot movement was less stable and the engraving trajectory did not accurately follow the desired path.
 
-https://github.com/user-attachments/assets/YOUR-BEFORE-CONTROL-VIDEO-LINK
+
+
+https://github.com/user-attachments/assets/1eda7de9-5f0c-4c74-a9ca-bbeb0c9dc482
+
+
+
 
 #### Before Control Letter Results
 
@@ -249,13 +254,6 @@ The comparison after control showed improvement in:
 * Engraving quality
 * Reduction of motion error
 
-#### After Control Motion Video
-
-This MP4 video demonstrates the robot motion after applying the PID controller.
-
-After control, the robot motion became more stable, smoother, and closer to the desired engraving trajectory.
-
-https://github.com/user-attachments/assets/YOUR-AFTER-CONTROL-VIDEO-LINK
 
 #### After Control Letter Results
 
@@ -432,17 +430,9 @@ This MP4 video shows the motion of the laser engraver robot before applying the 
 
 Before control, the robot motion was less stable and the engraving trajectory was not accurately following the desired path.
 
-https://github.com/user-attachments/assets/YOUR-BEFORE-CONTROL-VIDEO-LINK
 
----
+https://github.com/user-attachments/assets/faab7f9f-c189-4e85-9fca-752b63b2a4d0
 
-### After Control Motion Video
-
-This MP4 video shows the motion of the laser engraver robot after applying the PID controller.
-
-After control, the robot motion became more stable and the engraving trajectory became closer to the desired path.
-
-https://github.com/user-attachments/assets/YOUR-AFTER-CONTROL-VIDEO-LINK
 
 ---
 
